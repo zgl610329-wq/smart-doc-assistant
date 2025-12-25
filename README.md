@@ -106,7 +106,7 @@ smart-doc-assistant/
 
 1.  **克隆项目**
     ```bash
-    git clone https://github.com/your-repo/smart-doc-assistant.git
+    git clone https://github.com/zgl610329-wq/smart-doc-assistant.git
     cd smart-doc-assistant
     ```
 
