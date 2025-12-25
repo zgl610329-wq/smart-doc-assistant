@@ -140,7 +140,7 @@ smart-doc-assistant/
     ```
 
 6.  **测试接口**
-    访问 `http://localhost:8000/docs` 并使用 `/analyze` 接口测试。
+    访问 `http://localhost:8000/docs` 并使用 `/process` 接口测试。
 
 ---
 
