@@ -237,17 +237,3 @@ docker-compose logs -f
   }
 }
 ```
-
----
-
-## ⚠️ 注意事项与最佳实践
-
-1.  **Token 成本控制**: 技术文档篇幅较长，建议在 `processor.py` 中引入 `RecursiveCharacterTextSplitter` 对 Markdown 进行分块处理，或仅截取前 20k 字符。
-2.  **反爬虫策略**: 虽然 Crawl4AI 开启了 `magic=True` 模式（抗指纹），但高频访问同一域名仍可能被封禁。建议在生产环境中增加代理池（Proxy）支持。
-3.  **并发限制**: 浏览器渲染极其消耗 CPU 和 内存。在 2核 4G 的服务器上，建议控制并发数在 2-4 个以内。
-
----
-
-## 📄 License
-
-MIT License. See [LICENSE](LICENSE) for more information.
